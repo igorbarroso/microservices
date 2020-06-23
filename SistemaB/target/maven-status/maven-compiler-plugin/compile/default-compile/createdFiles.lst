@@ -1,0 +1,7 @@
+br/com/igoroliveira/SistemaBApplication.class
+br/com/igoroliveira/repository/PersonRepository.class
+br/com/igoroliveira/controller/PersonController.class
+br/com/igoroliveira/model/Address.class
+br/com/igoroliveira/model/Asset.class
+br/com/igoroliveira/service/PersonService.class
+br/com/igoroliveira/model/Person.class

@@ -1,0 +1,8 @@
+/home/igor/microservices/SistemaC/src/main/java/br/com/igoroliveira/model/CreditCardTransaction.java
+/home/igor/microservices/SistemaC/src/main/java/br/com/igoroliveira/model/Query.java
+/home/igor/microservices/SistemaC/src/main/java/br/com/igoroliveira/repository/PersonRepository.java
+/home/igor/microservices/SistemaC/src/main/java/br/com/igoroliveira/SistemaCApplication.java
+/home/igor/microservices/SistemaC/src/main/java/br/com/igoroliveira/model/Person.java
+/home/igor/microservices/SistemaC/src/main/java/br/com/igoroliveira/controller/PersonController.java
+/home/igor/microservices/SistemaC/src/main/java/br/com/igoroliveira/service/PersonService.java
+/home/igor/microservices/SistemaC/src/main/java/br/com/igoroliveira/model/FinancialActivity.java

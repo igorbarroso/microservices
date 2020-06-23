@@ -1,0 +1,59 @@
+version: '3'
+services:
+  discovery-server:
+    container_name: discovery-server
+    image:
+      igorbarroso/microservices:discovery-server
+    ports:
+      - 8761:8761
+    networks:
+      - local
+  sistema-edge:
+    container_name: sistema-edge
+    image:
+      igorbarroso/microservices:sistema-edge
+    ports:
+      - 8000:8000
+    depends_on:
+      - discovery-server
+      - sistema-a
+      - sistema-b
+      - sistema-c
+    networks:
+      - local
+    environment:
+      EUREKA_CLIENT_SERVICE-URL_DEFAULT-ZONE: http://discovery-server:8761/eureka
+  sistema-a:
+    container_name: sistema-a
+    image:
+      igorbarroso/microservices:sistema-a
+    depends_on:
+      - discovery-server
+    networks:
+      - local
+    environment:
+      EUREKA_CLIENT_SERVICE-URL_DEFAULT-ZONE: http://discovery-server:8761/eureka
+  sistema-b:
+    container_name: sistema-b
+    image:
+      igorbarroso/microservices:sistema-b
+    depends_on:
+      - discovery-server
+    networks:
+      - local
+    environment:
+      EUREKA_CLIENT_SERVICE-URL_DEFAULT-ZONE: http://discovery-server:8761/eureka
+  sistema-c:
+    container_name: sistema-c
+    image:
+      igorbarroso/microservices:sistema-c
+    depends_on:
+      - discovery-server
+    networks:
+      - local
+    environment:
+      EUREKA_CLIENT_SERVICE-URL_DEFAULT-ZONE: http://discovery-server:8761/eureka
+networks:
+  local:
+    driver: bridge
+    

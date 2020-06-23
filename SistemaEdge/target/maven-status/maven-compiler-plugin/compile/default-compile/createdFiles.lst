@@ -1,0 +1,16 @@
+br/com/igoroliveira/beans/BeansConfiguration.class
+br/com/igoroliveira/service/MainService.class
+br/com/igoroliveira/model/FinancialActivity.class
+br/com/igoroliveira/model/Creditor.class
+br/com/igoroliveira/model/Address.class
+br/com/igoroliveira/model/FinancialEvents.class
+br/com/igoroliveira/security/SecurityConfig.class
+br/com/igoroliveira/model/Person.class
+br/com/igoroliveira/model/Debt.class
+br/com/igoroliveira/model/Query.class
+br/com/igoroliveira/model/ScoreData.class
+br/com/igoroliveira/controller/MainController.class
+br/com/igoroliveira/model/Asset.class
+br/com/igoroliveira/model/CreditCardTransaction.class
+br/com/igoroliveira/SistemaEdgeApplication.class
+br/com/igoroliveira/utils/ScoreCalculator.class

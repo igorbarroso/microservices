@@ -1,0 +1,8 @@
+/home/igor/microservices/SistemaA/src/main/java/br/com/igoroliveira/model/Creditor.java
+/home/igor/microservices/SistemaA/src/main/java/br/com/igoroliveira/model/Person.java
+/home/igor/microservices/SistemaA/src/main/java/br/com/igoroliveira/controller/PersonController.java
+/home/igor/microservices/SistemaA/src/main/java/br/com/igoroliveira/service/PersonService.java
+/home/igor/microservices/SistemaA/src/main/java/br/com/igoroliveira/SistemaAApplication.java
+/home/igor/microservices/SistemaA/src/main/java/br/com/igoroliveira/model/Debt.java
+/home/igor/microservices/SistemaA/src/main/java/br/com/igoroliveira/model/Address.java
+/home/igor/microservices/SistemaA/src/main/java/br/com/igoroliveira/repository/PersonRepository.java
